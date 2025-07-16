@@ -1,8 +1,0 @@
-algorithm for average of three numbers
-step 1:start
-step 2:take A=10
-step 3:take B=20
-step 4:take c=30
-step 5:sum=A+B+C
-step 6:sum%3
-step 7:end
