@@ -74,18 +74,18 @@ public class Task2 {
   public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
 
-      // Create some predefined courses
+      
       Course c1 = new Course("CS101", "Object Oriented Programming");
       Course c2 = new Course("CS102", "Operating Systems");
       Course c3 = new Course("CS103", "Database Systems");
 
-      // Create student
+      
       System.out.print("Enter student name: ");
       String name = sc.nextLine();
 
       Students student = new Students(name);
 
-      // Menu to simulate enrollment
+      
       while (true) {
           System.out.println("\n--- Course Enrollment Menu ---");
           System.out.println("1. Enroll in Object Oriented Programming");
@@ -118,4 +118,5 @@ public class Task2 {
           }
       }
   }
+
 }
